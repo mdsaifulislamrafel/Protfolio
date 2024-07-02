@@ -17,7 +17,7 @@ const Contact = () => {
       </Box>
       <Box sx={{ flexGrow: 1, display: "flex", flexDirection: 'row', justifyContent: 'center', alignItems: 'flex-start', gap: 5, flexWrap: 'wrap', p: 5,pb:10 }}>
           <QuickContact/>
-          <ContactForm/>
+          {/* <ContactForm/> */}
       </Box>
     </>
   )
