@@ -7,7 +7,7 @@ import { SiTelegram } from 'react-icons/si';
 const info = [
   { icon: <MdOutlineMail />, name: 'Email', contact: 'mdsaifulisalmrafel@gmail.com' },
   { icon: <FaWhatsapp />, name: 'WhatsApp', contact: '+8801319101783' },
-  { icon: <SiTelegram />, name: 'Telegram', contact: '@moin_coder' }
+  { icon: <SiTelegram />, name: 'Telegram', contact: '@mdsaifulislamrafel' }
 ];
 
 const openWhatsApp = () => {
@@ -15,7 +15,7 @@ const openWhatsApp = () => {
 };
 
 const openTelegram = () => {
-  window.open('https://t.me/moin_coder', '_blank');
+  window.open('https://t.me/mdsaifulislamrafel', '_blank');
 };
 
 const QuickContact = () => {
