@@ -16,6 +16,7 @@ import BrokenImageOutlinedIcon from '@mui/icons-material/BrokenImageOutlined';
 import NearMeOutlinedIcon from '@mui/icons-material/NearMeOutlined';
 import FingerprintIcon from '@mui/icons-material/Fingerprint';
 import IconButton from '@mui/material/IconButton';
+import { FaBlog } from 'react-icons/fa';
 
 const pages = [
     { label: 'Home', path: 'home', icon: <HomeOutlinedIcon />, offset: -50 },
@@ -23,6 +24,7 @@ const pages = [
     { label: 'Skills', path: 'skills', icon: <DescriptionOutlinedIcon />, offset: -105 },
     { label: 'Services', path: 'services', icon: <BusinessCenterOutlinedIcon />, offset: -80 },
     { label: 'Portfolio', path: 'portfolio', icon: <BrokenImageOutlinedIcon />, offset: -80 },
+    { label: 'Blog', path: 'blog', icon: <FaBlog />, offset: -90 },
     { label: 'Contact', path: 'contact', icon: <NearMeOutlinedIcon />, offset: -90 },
 ];
 
@@ -135,7 +137,6 @@ const Header = () => {
                                 textDecoration: 'none',
                             }}
                         >
-                            DevMoin
                         </Typography>
 
                         <Box sx={{ flexGrow: 1 }} />

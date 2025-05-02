@@ -5,7 +5,7 @@ import { AiOutlineHtml5 } from "react-icons/ai";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiBootstrapFill } from "react-icons/ri";
-import { SiTailwindcss } from "react-icons/si";
+import { SiMongoose, SiTailwindcss } from "react-icons/si";
 import { SiReact } from "react-icons/si";
 import { SiMui } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -51,7 +51,8 @@ const frontend = [
 const backend = [
   { label: 'Node.js',icon: <FaNode/>},
   { label: 'Express.js',icon: <SiExpress/>},
-  { label: 'MongoDb',icon: <SiMongodb/>}
+  { label: 'MongoDB',icon: <SiMongodb/>},
+  { label: 'Mongoose',icon: <SiMongoose />},
 
 ]
 
