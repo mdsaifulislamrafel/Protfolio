@@ -35,7 +35,7 @@ const blogPosts = [
     id: 2,
     title: "Building Responsive UIs with Material UI",
     excerpt: "Discover how to create beautiful user interfaces using Material UI components.",
-    image: "https://tillitsdone.com/_astro/Accessible-UIs-with-Material-UI-1732633167696-595a5ce721d69c9272de896ebc80c5a4.Dt0D60fF_FcDsb.webp",
+    image: "https://images.unsplash.com/photo-1545235617-9465d2a55698?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     category: "UI/UX",
     date: "May 02, 2025",
     author: "Md Saiful Islam Rafel",

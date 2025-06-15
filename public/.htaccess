@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^rafel$ /index.html [L]
